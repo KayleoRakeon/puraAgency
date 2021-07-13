@@ -1,4 +1,9 @@
 @import "helpers/variables";
 @import "helpers/reset";
+@import "helpers/font";
+@import "helpers/button";
 
-@import "components/header.scss";
+@import "components/nav.scss";
+@import "components/head.scss";
+@import "components/about.scss";
+@import "components/skills.scss";

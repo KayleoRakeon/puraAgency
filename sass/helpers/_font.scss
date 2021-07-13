@@ -1,0 +1,60 @@
+h1{
+    font-family:$s-serif;
+    color:white;
+    font-weight:$reg;
+    font-size:$tagline;
+
+    span{
+        font-family:$serif;
+        font-weight:$reg-serif;
+    }
+}
+
+h2{
+    font-family:$s-serif;
+    color:white;
+    text-align:center;
+    font-size:$h-title;
+    font-weight:$bold;
+    margin:50px 0 90px 0;
+}
+
+
+h3{
+    color:white;
+    font-family:$s-serif;
+    font-size:$about-title;
+    font-weight:$bold;
+}
+
+.about{
+    p{
+        color:white;
+        font-family:$s-serif;
+        font-size:$about-text;
+        font-weight:$reg;
+        margin:90px 0 40px 0;
+    }
+
+    a{
+        color:white;
+        font-family:$s-serif;
+        font-size:$about-button;
+        font-weight:$reg;
+        margin:0 40px 0 0;
+    }
+}
+
+h4{
+    color:$grey-skills-title;
+    font-size:$skills-title;
+    font-family:$s-serif;
+    font-weight:$bold;
+}
+
+p{
+    color:$grey-skills-text;
+    font-size:$skills-text;
+    font-family:$serif;
+    font-weight:$reg-serif;
+}

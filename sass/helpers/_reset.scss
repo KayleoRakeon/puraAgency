@@ -6,7 +6,11 @@
 body{
     width:100%;
     height:auto;
-    background: $main-gradient;
+
+    main{
+        width:100%;
+        height:auto;
+    }
 }
 
 img{
@@ -21,4 +25,8 @@ ul{
 a{
     color:black;
     text-decoration:none;
+}
+
+.clear{
+    clear:both;
 }

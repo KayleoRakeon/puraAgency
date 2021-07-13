@@ -1,0 +1,28 @@
+button{
+    color:white;
+    font-family:$s-serif;
+    font-weight:$bold;
+    font-size:$button;
+    padding:20px 50px;
+    box-sizing:border-box;
+    background:$main-gradient;
+    border:none;
+}
+
+.container{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+    .button{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border:solid 2px white;
+        border-radius:50px;
+        padding:20px 40px;
+        box-sizing:border-box;
+    }
+}
