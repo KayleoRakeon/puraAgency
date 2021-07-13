@@ -1,0 +1,34 @@
+// font-family
+$s-serif : 'Poppins', sans-serif;
+$serif : 'Playfair Display', serif;
+
+// font-weight
+$reg : 300;
+$reg-serif : 400;
+$bold : 700;
+
+// font-size
+$text : 16px;
+$tagline : 25px;
+$h-title : 50px;
+$about-title : 40px;
+$about-text : 35px;
+$about-button : 20px;
+$skills-number : 120px;
+$skills-number-hover : 60px;
+$skills-title : 20px;
+$skills-text : 14px;
+
+// colors 
+$black : #222222;
+$red : #FD3E4F;
+$grey-skills-title : #5C5C5C;
+$grey-skills-text : #7B7B7B;
+$grey-job : #9A9A9A;
+$grey-solution-text : #717171;
+
+// gradients
+$main-gradient : linear-gradient(to top, #FD3FB3, #FD3F81, $red);
+$numbers-gradient : linear-gradient(to top, #FD3FB3, #FD3F81, $red);
+$numbers-hover-gradient : linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+$skills-hover : linear-gradient(to top, $red, #FD3F81, #FD3FB3);
