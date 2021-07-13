@@ -50,11 +50,45 @@ h4{
     font-size:$skills-title;
     font-family:$s-serif;
     font-weight:$bold;
+    margin:0 0 40px 0;
+    padding:0;
+    box-sizing:border-box;
+    transition:all 0.5s ease-out;
 }
 
-p{
-    color:$grey-skills-text;
-    font-size:$skills-text;
-    font-family:$serif;
-    font-weight:$reg-serif;
+.skills{
+    p{
+        color:$grey-skills-text;
+        font-size:$skills-text;
+        font-family:$serif;
+        font-weight:$reg-serif;
+        transition:all 0.5s ease-out;
+    }
+}
+
+
+h5{
+    color:black;
+    font-size:$about-title;
+    width:100%;
+    font-family:$s-serif;
+    margin:0 0 70px 0;
+}
+
+h6{
+    font-family:$s-serif;
+    color:$black;
+    font-size:$skills-title;
+    text-align:center;
+    margin:0;
+    transition:all 0.5s ease-out;
+}
+
+.team{
+    p{
+        font-family:$serif;
+        color:$grey-job;
+        font-size:$text;
+        text-align:center;
+    }
 }

@@ -31,5 +31,5 @@ $grey-solution-text : #717171;
 // gradients
 $main-gradient : linear-gradient(to top, #FD3FB3, #FD3F81, $red);
 $numbers-gradient : linear-gradient(to top, #FD3FB3, #FD3F81, $red);
-$numbers-hover-gradient : linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+$numbers-hover-gradient : linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 $skills-hover : linear-gradient(to top, $red, #FD3F81, #FD3FB3);
