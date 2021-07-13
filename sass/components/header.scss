@@ -1,0 +1,33 @@
+header{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 135px 0 30px;
+    box-sizing:border-box;
+
+    nav{
+        ul{
+            li{
+                display:inline-block;
+
+                a{
+                    font-family:$s-serif;
+                    color:white;
+                    font-size:$text;
+                    font-weight:$bold;
+                    margin:0 8px;
+                }
+            }
+        }
+
+        &:last-child{
+            ul{
+                li:nth-child(2){
+                    margin:0 16px;
+                }
+            }
+        }
+    }
+}

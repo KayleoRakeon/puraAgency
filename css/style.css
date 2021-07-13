@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0; }
 
+body {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F); }
+
 img {
   display: block;
   max-width: 100%; }
@@ -13,9 +18,21 @@ a {
   color: black;
   text-decoration: none; }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F); }
-
-/*# sourceMappingURL=style.css.map */
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 135px 0 30px;
+  box-sizing: border-box; }
+  header nav ul li {
+    display: inline-block; }
+    header nav ul li a {
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0 8px; }
+  header nav:last-child ul li:nth-child(2) {
+    margin: 0 16px; }
