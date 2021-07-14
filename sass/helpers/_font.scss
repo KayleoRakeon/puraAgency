@@ -17,6 +17,14 @@ h2{
     font-size:$h-title;
     font-weight:$bold;
     margin:50px 0 90px 0;
+
+    @media screen and (max-width:$tablet){
+        font-size:$about-title;
+    }
+
+    @media screen and (max-width:$mobile){
+        font-size:$about-text;
+    }
 }
 
 
@@ -73,6 +81,11 @@ h5{
     width:100%;
     font-family:$s-serif;
     margin:0 0 70px 0;
+
+    @media screen and (max-width:$tablet){
+        padding:0 0 0 50px;
+        box-sizing:border-box;
+    }
 }
 
 h6{

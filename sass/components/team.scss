@@ -3,7 +3,7 @@
     height:auto;
     max-width:1300px;
     margin:100px auto 200px auto;
-    padding:0 50px 0 50px;
+    padding:0 50px;
     box-sizing:border-box;
     display:flex;
     justify-content:space-between;
@@ -38,6 +38,10 @@
             transform:translateX(-50%);
             z-index:1;
             transition:all 0.5s ease-out;
+
+            @media screen and (max-width:$tablet){
+                bottom:0;
+            }
         }
 
         .socials{
@@ -55,6 +59,10 @@
                     display:inline-block;
                     margin:0 10px;
                 }
+            }
+
+            @media screen and (max-width:$tablet){
+                bottom:5%;
             }
         }
 
@@ -79,7 +87,27 @@
             .socials{
                 opacity:1;
                 bottom:35%;
+
+                @media screen and (max-width:$tablet){
+                    bottom:10%;
+                }
             }
         }
+
+        @media screen and (max-width:$tablet){
+            width:100%;
+
+            &:nth-child(3){
+                margin:50px auto;
+            }
+
+            img{
+                margin:50px auto;
+            }
+        }
+    }
+
+    @media screen and (max-width:$tablet){
+        padding:0;
     }
 }

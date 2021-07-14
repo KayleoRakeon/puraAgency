@@ -39,6 +39,12 @@ h2 {
   font-size: 50px;
   font-weight: 700;
   margin: 50px 0 90px 0; }
+  @media screen and (max-width: 900px) {
+    h2 {
+      font-size: 40px; } }
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 35px; } }
 
 h3 {
   color: white;
@@ -82,6 +88,10 @@ h5 {
   width: 100%;
   font-family: "Poppins", sans-serif;
   margin: 0 0 70px 0; }
+  @media screen and (max-width: 900px) {
+    h5 {
+      padding: 0 0 0 50px;
+      box-sizing: border-box; } }
 
 h6 {
   font-family: "Poppins", sans-serif;
@@ -117,6 +127,10 @@ button {
   box-sizing: border-box;
   background: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F);
   border: none; }
+  @media screen and (max-width: 900px) {
+    button.btn {
+      display: block;
+      margin: auto; } }
 
 .container {
   width: 100%;
@@ -152,8 +166,20 @@ header {
       font-size: 16px;
       font-weight: 700;
       margin: 0 8px; }
+  @media screen and (max-width: 600px) {
+    header nav ul {
+      text-align: center; } }
   header nav:last-child ul li:nth-child(2) {
     margin: 0 16px; }
+  @media screen and (max-width: 900px) {
+    header nav:nth-child(2) {
+      margin: 30px 0 0 0; } }
+  @media screen and (max-width: 1200px) {
+    header {
+      padding: 20px 30px 0 30px; } }
+  @media screen and (max-width: 900px) {
+    header {
+      flex-direction: column; } }
 
 .head {
   width: 100%;
@@ -261,13 +287,38 @@ header {
           opacity: 1; }
         .skills > div article:hover::before {
           transform: translateY(0); }
+      @media screen and (max-width: 900px) {
+        .skills > div article {
+          width: 100%;
+          padding: 110px 50px 75px 50px; }
+          .skills > div article h4 {
+            padding: 30px 0 0 0;
+            margin: 0 0 30px 0; }
+          .skills > div article::after {
+            font-size: 60px;
+            top: 50px;
+            left: 50px;
+            opacity: 1; } }
+      @media screen and (max-width: 900px) {
+        .skills > div article.s2 h4 {
+          color: white; }
+        .skills > div article.s2 p {
+          color: white; }
+        .skills > div article.s2::after {
+          background-image: linear-gradient(to bottom, white, white); }
+        .skills > div article.s2::before {
+          transform: translateY(0); } }
+    @media screen and (max-width: 900px) {
+      .skills > div {
+        flex-direction: column;
+        padding: 0; } }
 
 .team {
   width: 100%;
   height: auto;
   max-width: 1300px;
   margin: 100px auto 200px auto;
-  padding: 0 50px 0 50px;
+  padding: 0 50px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -296,6 +347,9 @@ header {
       transform: translateX(-50%);
       z-index: 1;
       transition: all 0.5s ease-out; }
+      @media screen and (max-width: 900px) {
+        .team article .identity {
+          bottom: 0; } }
     .team article .socials {
       width: 100%;
       position: absolute;
@@ -308,6 +362,9 @@ header {
         .team article .socials ul li {
           display: inline-block;
           margin: 0 10px; }
+      @media screen and (max-width: 900px) {
+        .team article .socials {
+          bottom: 5%; } }
     .team article:hover::before {
       opacity: 0.85; }
     .team article:hover .identity {
@@ -320,6 +377,19 @@ header {
     .team article:hover .socials {
       opacity: 1;
       bottom: 35%; }
+      @media screen and (max-width: 900px) {
+        .team article:hover .socials {
+          bottom: 10%; } }
+    @media screen and (max-width: 900px) {
+      .team article {
+        width: 100%; }
+        .team article:nth-child(3) {
+          margin: 50px auto; }
+        .team article img {
+          margin: 50px auto; } }
+  @media screen and (max-width: 900px) {
+    .team {
+      padding: 0; } }
 
 .solutions {
   width: 100%;
@@ -333,6 +403,13 @@ header {
     left: 0; }
     .solutions > article img {
       width: 100%; }
+      @media screen and (max-width: 900px) {
+        .solutions > article img {
+          width: 85%; } }
+    @media screen and (max-width: 900px) {
+      .solutions > article {
+        width: 100%;
+        top: calc(100% + 100px); } }
   .solutions .maxwidth {
     width: 100%;
     height: auto;
@@ -347,3 +424,7 @@ header {
       width: 50%;
       padding: 0 0 0 70px;
       box-sizing: border-box; }
+      @media screen and (max-width: 900px) {
+        .solutions .maxwidth article:first-child {
+          width: 100%;
+          padding: 0; } }
