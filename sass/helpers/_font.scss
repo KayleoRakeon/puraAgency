@@ -23,7 +23,8 @@ h2{
     }
 
     @media screen and (max-width:$mobile){
-        font-size:$about-text;
+        font-size:25px;
+        margin:40px 0 60px 0
     }
 }
 

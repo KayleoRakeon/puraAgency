@@ -44,7 +44,8 @@ h2 {
       font-size: 40px; } }
   @media screen and (max-width: 600px) {
     h2 {
-      font-size: 35px; } }
+      font-size: 25px;
+      margin: 40px 0 60px 0; } }
 
 h3 {
   color: white;
@@ -199,6 +200,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    @media screen and (max-width: 600px) {
+      .head article {
+        justify-content: flex-end; } }
+  @media screen and (max-width: 900px) {
+    .head {
+      height: 100vh; } }
+  @media screen and (max-width: 600px) {
+    .head {
+      height: 100vh;
+      padding: 0 0 50px 0;
+      box-sizing: border-box; } }
 
 .about {
   width: 100%;
