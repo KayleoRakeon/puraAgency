@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   width: 100%;
   height: auto; }
@@ -114,7 +117,7 @@ h6 {
   font-family: "Poppins", sans-serif; }
   .solutions p span {
     color: #FD3E4F; }
-.solutions p.solutions-title {
+.solutions p.solutions-text {
   color: #717171;
   font-size: 16px;
   margin: 80px 0 70px 0; }
@@ -132,6 +135,8 @@ button {
     button.btn {
       display: block;
       margin: auto; } }
+  button a {
+    color: white; }
 
 .container {
   width: 100%;
