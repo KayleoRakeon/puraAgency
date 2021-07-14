@@ -1,4 +1,4 @@
-button{
+a.button{
     color:white;
     font-family:$s-serif;
     font-weight:$bold;
@@ -8,7 +8,7 @@ button{
     background:$main-gradient;
     border:none;
 
-    &.btn{
+    &.btn-solutions{
         @media screen and (max-width:$tablet){
             display:block;
             margin:auto;

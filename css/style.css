@@ -122,7 +122,7 @@ h6 {
   font-size: 16px;
   margin: 80px 0 70px 0; }
 
-button {
+a.button {
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -132,10 +132,10 @@ button {
   background: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F);
   border: none; }
   @media screen and (max-width: 900px) {
-    button.btn {
+    a.button.btn-solutions {
       display: block;
       margin: auto; } }
-  button a {
+  a.button a {
     color: white; }
 
 .container {
