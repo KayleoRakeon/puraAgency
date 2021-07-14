@@ -133,8 +133,9 @@ a.button {
   border: none; }
   @media screen and (max-width: 900px) {
     a.button.btn-solutions {
-      display: block;
-      margin: auto; } }
+      display: inline-block;
+      text-align: center;
+      width: 100%; } }
   a.button a {
     color: white; }
 
