@@ -92,3 +92,21 @@ h6{
         text-align:center;
     }
 }
+
+.solutions{
+    p{
+        color:$black;
+        font-size:$about-title;
+        font-family:$s-serif;
+
+        span{
+            color:$red;
+        }
+    }
+
+    p.solutions-title{
+        color:$grey-solution-text;
+        font-size:$text;
+        margin:80px 0 70px 0;
+    }
+}
