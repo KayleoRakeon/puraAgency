@@ -259,7 +259,7 @@ header {
         font-size: 120px;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
-        background: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F);
+        background-image: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F);
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -284,7 +284,7 @@ header {
         bottom: 0;
         right: 0;
         background-image: linear-gradient(to top, #FD3E4F, #FD3F81, #FD3FB3);
-        transform: translateY(100%);
+        transform: translateY(-100%);
         z-index: -1; }
       .skills > div article .bumper {
         width: 100%;

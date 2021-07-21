@@ -30,7 +30,7 @@
                 font-size:$skills-number;
                 font-family:$s-serif;
                 font-weight:$bold;
-                background:$numbers-gradient;
+                background-image:$numbers-gradient;
                 background-clip:text;
                 -webkit-background-clip:text;
                 -moz-background-clip:text;
@@ -61,7 +61,7 @@
                 bottom:0;
                 right:0;
                 background-image:$skills-hover;
-                transform:translateY(100%);
+                transform:translateY(-100%);
                 z-index:-1;
             }
 
