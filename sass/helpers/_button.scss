@@ -10,9 +10,10 @@ a.button{
 
     &.btn-solutions{
         @media screen and (max-width:$tablet){
-            display:inline-block;
+            display:block;
             text-align:center;
-            width:100%;
+            width:auto;
+            margin:auto;
         }
     }
 

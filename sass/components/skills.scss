@@ -112,8 +112,32 @@
                     left:50px;
                     opacity:1;
                 }
-            }
 
+                &:hover{
+                    padding:110px 50px 75px 50px;
+    
+                    h4{
+                        color:$grey-skills-title;
+                        padding:30px 0 0 0;
+                        margin:0 0 30px 0;
+                    }
+    
+                    p{
+                        color:$grey-skills-text;
+                    }
+    
+                    &::after{
+                        background-image:$numbers-gradient;
+                        top:50px;
+                        left:50px;
+                        opacity:1;
+                    }
+
+                    &::before{
+                        transform:translateY(-100%);
+                    }
+                }
+            }
             &.s2{
                 @media screen and (max-width:$tablet){
                     h4{
@@ -131,6 +155,12 @@
                     &::before{
                         transform:translateY(0);
                     }
+
+                    &:hover{
+                        &::after{
+                            background-image:$numbers-hover-gradient;
+                        }
+                    }
                 }
             }
         }
@@ -139,5 +169,5 @@
             flex-direction:column;
             padding:0;
         }
-    }
+    }   
 }
