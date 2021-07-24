@@ -21,6 +21,10 @@ header{
                     font-size:$text;
                     font-weight:$bold;
                     margin:0 8px;
+
+                    &:hover{
+                        color:$red;
+                    }
                 }
             }
         }
@@ -55,6 +59,10 @@ header{
 
                         a{
                             font-size:$tagline;
+
+                            &:hover{
+                                color:white;
+                            }
                         }
                     }
                 }
@@ -84,6 +92,14 @@ header{
                     left:0;
                     padding:0 0 50px 60px;
                     box-sizing:border-box;
+
+                    li{
+                        a{
+                            &:hover{
+                                color:white;
+                            }
+                        }
+                    }
                 }
             }
 
