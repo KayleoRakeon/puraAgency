@@ -133,7 +133,8 @@ a.button {
   background: linear-gradient(to top, #FD3FB3, #FD3F81, #FD3E4F);
   border: none;
   transition: all 0.3s ease-out;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   @media screen and (max-width: 900px) {
     a.button.btn-solutions {
       display: block;

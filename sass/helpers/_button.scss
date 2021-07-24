@@ -9,6 +9,7 @@ a.button{
     border:none;
     transition:all 0.3s ease-out;
     position:relative;
+    cursor:pointer;
 
     &.btn-solutions{
         @media screen and (max-width:$tablet){
